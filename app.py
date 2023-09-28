@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import pickle
 import numpy as np
 
-model = pickle.load(open('ml_model.pkl','rb'))
+model = pickle.load(open('ml_model_3targetvariable.pkl','rb'))
 
 app = Flask(__name__)
 
